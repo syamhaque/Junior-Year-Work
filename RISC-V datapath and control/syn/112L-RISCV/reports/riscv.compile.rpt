@@ -1,0 +1,532 @@
+Information: Performing power optimization. (PWR-850)
+Analyzing: "/users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db"
+Library analysis succeeded.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | J-2014.09-DWBB_201409.4 |     *     |
+| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.4 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 134 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Loaded alib file './alib-52/saed32lvt_tt1p05vn40c.db.alib'
+Information: Ungrouping hierarchy dp/ifidflop before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/c before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/ac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/hazdetect before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/brancdetect before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/idexflop before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/forward1a before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/forward2a before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/pcsrcmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/forward1b before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/forward2b before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/Ext_Imm before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/srcbmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/alu_module before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/jalmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/badd before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/forward before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/exmemflop before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/pcadd before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/branchmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/jalrmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/pcreg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/data_mem before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/memwbflop before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/resmux before Pass 1 (OPT-776)
+Information: Ungrouping 25 of 29 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'RegFile'
+ Implement Synthetic for 'RegFile'.
+  Processing 'Datapath'
+Information: The register 'exmemflop/BranchMEM_reg' will be removed. (OPT-1207)
+Information: Added key list 'DesignWare' to design 'Datapath'. (DDB-72)
+Information: The register 'exmemflop/JalrMuxMEM_reg[0]' is a constant and will be removed. (OPT-1206)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[7]' is removed because it is merged to 'idexflop/WriteRegAddrEX_reg[0]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[8]' is removed because it is merged to 'idexflop/WriteRegAddrEX_reg[1]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[9]' is removed because it is merged to 'idexflop/WriteRegAddrEX_reg[2]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[10]' is removed because it is merged to 'idexflop/WriteRegAddrEX_reg[3]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[11]' is removed because it is merged to 'idexflop/WriteRegAddrEX_reg[4]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[15]' is removed because it is merged to 'idexflop/Reg1AddrEX_reg[0]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[16]' is removed because it is merged to 'idexflop/Reg1AddrEX_reg[1]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[17]' is removed because it is merged to 'idexflop/Reg1AddrEX_reg[2]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[18]' is removed because it is merged to 'idexflop/Reg1AddrEX_reg[3]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[19]' is removed because it is merged to 'idexflop/Reg1AddrEX_reg[4]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[20]' is removed because it is merged to 'idexflop/Reg2AddrEX_reg[0]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[21]' is removed because it is merged to 'idexflop/Reg2AddrEX_reg[1]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[22]' is removed because it is merged to 'idexflop/Reg2AddrEX_reg[2]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[23]' is removed because it is merged to 'idexflop/Reg2AddrEX_reg[3]'. (OPT-1215)
+Information: In design 'Datapath', the register 'idexflop/ExtImmEX_reg[24]' is removed because it is merged to 'idexflop/Reg2AddrEX_reg[4]'. (OPT-1215)
+ Implement Synthetic for 'Datapath'.
+  Processing 'riscv'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'PMT3_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PMT2_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PMT1_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT3_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT2_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT1_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Information: In design 'riscv', the register 'dp/idexflop/MemReadEX_reg' is removed because it is merged to 'dp/idexflop/MemtoRegEX_reg'. (OPT-1215)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 99.83%, undefined 0.17%
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:15   77589.6      0.00       0.0      48.5                           21577322496.0000
+    0:01:15   77589.6      0.00       0.0      48.5                           21577322496.0000
+    0:01:15   77589.6      0.00       0.0      48.5                           21577322496.0000
+    0:01:16   77589.6      0.00       0.0      48.5                           21577322496.0000
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+    0:01:30   76505.0      0.01       1.8      49.4                           19146897408.0000
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:01:30   76505.0      0.01       1.8      49.4                           19146897408.0000
+    0:01:34   76538.3      0.01       1.9      44.2                           18610927616.0000
+    0:01:40   76538.3      0.01       1.9      44.2                           18610927616.0000
+    0:01:40   76538.3      0.01       1.9      44.2                           18610927616.0000
+    0:01:40   76538.3      0.01       1.9      44.2                           18610927616.0000
+    0:01:40   76538.3      0.01       1.9      44.2                           18610927616.0000
+    0:01:46   76538.3      0.01       1.9      44.2                           18610927616.0000
+    0:01:46   76538.3      0.01       1.9      44.2                           18610927616.0000
+    0:01:55   76542.3      0.00       0.6      44.2                           18620209152.0000
+    0:01:55   76542.3      0.00       0.6      44.2                           18620209152.0000
+    0:02:04   76542.3      0.00       0.6      44.2                           18620209152.0000
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 99.83%, undefined 0.17%
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:02:05   76544.9      0.00       0.0      44.2                           18631254016.0000
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+    0:02:07   76579.2      0.00       0.0       0.0                           18706661376.0000
+    0:02:07   76579.2      0.00       0.0       0.0                           18706661376.0000
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:02:07   76579.2      0.00       0.0       0.0                           18706661376.0000
+    0:02:10   76579.2      0.00       0.0       0.0                           18706661376.0000
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 99.83%, undefined 0.17%
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:02:13   76579.2      0.00       0.0       0.0                           18706661376.0000
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+    0:02:23   76531.1      0.00       0.0       0.0                           18576699392.0000
+    0:02:23   76531.1      0.00       0.0       0.0                           18576699392.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:25   76540.3      0.00       0.0       0.0                           18519818240.0000
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_0, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_1, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_2, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_3, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_4, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_5, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_6, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_7, because it is not driving any load. (OPT-112)
+Warning: Removing don't touch or size only GTECH cell dp/instr_mem/B_8, because it is not driving any load. (OPT-112)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:02:27   76540.3      0.00       0.0       0.0                           18519818240.0000
+    0:02:30   77363.2      0.02       1.4       0.0                           18480998400.0000
+    0:02:33   77394.3      0.00       0.0       1.4                           18471897088.0000
+    0:02:36   77408.8      0.00       0.0       0.0                           18430670848.0000
+    0:02:36   77408.8      0.00       0.0       0.0                           18430670848.0000
+    0:02:39   77411.6      0.00       0.0      17.0                           18429501440.0000
+Loading db file '/users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db'
+Loading db file '/users/ugrad2/2012/spring/pooriam/libraries/saed32sram_tt1p05vn40c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'riscv' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'dp/instr_mem/*Logic0*': 3342 load(s), 1 driver(s)
+     Net 'dp/rf/clk': 1371 load(s), 1 driver(s)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
+1
