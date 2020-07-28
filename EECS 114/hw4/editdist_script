@@ -1,0 +1,43 @@
+Script started on Sun 17 Mar 2019 07:02:35 PM PDT
+]0;haquem1@laguna:hw4[haquem1@laguna hw4]$ exit./editdist[23G[3@make [36G
+g++    -c -o editdist.o editdist.c
+g++ -O3 -g -o editdist editdist.o
+]0;haquem1@laguna:hw4[haquem1@laguna hw4]$ make editdist[23Gexit[K./editdist
+ Operation | Cost | Total | z
+ initial   |    0 |    0  | electrical engineering
+    delete |    2 |    2  | _lectrical engineering
+    delete |    2 |    4  | _ectrical engineering
+    delete |    2 |    6  | _ctrical engineering
+     right |    0 |    6  | c_trical engineering
+    insert |    3 |    9  | co_trical engineering
+    insert |    3 |   12  | com_trical engineering
+    insert |    3 |   15  | comp_trical engineering
+    insert |    3 |   18  | compu_trical engineering
+     right |    0 |   18  | comput_rical engineering
+    insert |    3 |   21  | compute_rical engineering
+     right |    0 |   21  | computer_ical engineering
+   replace |    4 |   25  | computer _cal engineering
+    insert |    3 |   28  | computer s_cal engineering
+     right |    0 |   28  | computer sc_al engineering
+   replace |    4 |   32  | computer sci_l engineering
+    delete |    2 |   34  | computer sci_ engineering
+    delete |    2 |   36  | computer sci_engineering
+     right |    0 |   36  | computer scie_ngineering
+     right |    0 |   36  | computer scien_gineering
+   replace |    4 |   40  | computer scienc_ineering
+    delete |    2 |   42  | computer scienc_neering
+    delete |    2 |   44  | computer scienc_eering
+     right |    0 |   44  | computer science_ering
+    delete |    2 |   46  | computer science_ring
+    delete |    2 |   48  | computer science_ing
+    delete |    2 |   50  | computer science_ng
+    delete |    2 |   52  | computer science_g
+    delete |    2 |   54  | computer science_
+part 1 cost = 54
+input 1 cost = 1816
+input 2 cost = 1824
+input 3 cost = 1829
+]0;haquem1@laguna:hw4[haquem1@laguna hw4]$ ./editdist[23G[3@make [36G[23Gexit[K
+exit
+
+Script done on Sun 17 Mar 2019 07:02:42 PM PDT

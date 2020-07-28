@@ -1,0 +1,14 @@
+Script started on Sun 03 Mar 2019 09:17:02 PM PST
+]0;haquem1@zuma:hw3[haquem1@zuma hw3]$ make extra
+make: `extra' is up to date.
+]0;haquem1@zuma:hw3[haquem1@zuma hw3]$ ./exx[Ktra
+What size is the HashTable?
+100
+50% load avg insert reprobes = 0.220000
+50% load avg search reprobes = 0.484000
+90% load avg insert reprobes = 0.311111
+90% load avg search reprobes = 0.902500
+]0;haquem1@zuma:hw3[haquem1@zuma hw3]$ exit
+exit
+
+Script done on Sun 03 Mar 2019 09:17:16 PM PST

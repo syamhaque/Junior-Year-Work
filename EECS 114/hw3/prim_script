@@ -1,0 +1,12 @@
+Script started on Sun 03 Mar 2019 09:37:27 PM PST
+]0;haquem1@bondi:hw3[haquem1@bondi hw3]$ make prim
+make: `prim' is up to date.
+]0;haquem1@bondi:hw3[haquem1@bondi hw3]$ ./prim
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Dense test graph running time = 0.185096 seconds
+Sparse test graph running time = 0.135687 seconds
+]0;haquem1@bondi:hw3[haquem1@bondi hw3]$ exit
+exit
+
+Script done on Sun 03 Mar 2019 09:37:36 PM PST

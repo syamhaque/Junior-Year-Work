@@ -1,0 +1,14 @@
+Script started on Sun 03 Mar 2019 09:16:12 PM PST
+]0;haquem1@zuma:hw3[haquem1@zuma hw3]$ make hashing
+make: `hashing' is up to date.
+]0;haquem1@zuma:hw3[haquem1@zuma hw3]$ ./hashing
+What size is the HashTable?
+100
+50% load avg insert reprobes = 0.320000
+50% load avg search reprobes = 1.055400
+90% load avg insert reprobes = 2.055556
+90% load avg search reprobes = 17.167700
+]0;haquem1@zuma:hw3[haquem1@zuma hw3]$ exit
+exit
+
+Script done on Sun 03 Mar 2019 09:16:26 PM PST
